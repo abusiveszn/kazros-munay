@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 33% 93%;
+    --foreground: 216 55% 10%;
+    --card: 37 26% 88%;
+    --card-foreground: 216 55% 10%;
+    --popover: 40 33% 93%;
+    --popover-foreground: 216 55% 10%;
+    --primary: 42 50% 54%;
+    --primary-foreground: 216 55% 10%;
+    --secondary: 37 26% 88%;
+    --secondary-foreground: 216 55% 10%;
+    --muted: 37 26% 88%;
+    --muted-foreground: 30 13% 65%;
+    --accent: 42 50% 54%;
+    --accent-foreground: 216 55% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 30 13% 65%;
+    --input: 30 13% 65%;
+    --ring: 42 50% 54%;
+    --radius: 0.5rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-parchment text-navy font-body antialiased;
+    overflow-x: hidden;
+  }
+}
+
+@layer components {
+  .section-label {
+    @apply text-[0.6875rem] font-medium uppercase tracking-[0.15em] text-gold;
+  }
+
+  .section-title {
+    @apply font-display text-[clamp(1.5rem,3.5vw,2.75rem)] font-normal leading-[1.1] text-navy;
+  }
+
+  .section-title-light {
+    @apply font-display text-[clamp(1.5rem,3.5vw,2.75rem)] font-normal leading-[1.1] text-parchment;
+  }
+
+  .body-large {
+    @apply text-[1.125rem] font-light leading-[1.7];
+  }
+
+  .caption {
+    @apply text-[0.6875rem] font-medium uppercase tracking-[0.12em];
+  }
+
+  .text-link-gold {
+    @apply relative text-gold font-medium text-sm uppercase tracking-wider inline-block;
+  }
+
+  .text-link-gold::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-full h-[1px] bg-gold scale-x-0 origin-left transition-transform duration-300 ease-out;
+  }
+
+  .text-link-gold:hover::after {
+    @apply scale-x-100;
+  }
+
+  .mono-data {
+    @apply font-mono text-[clamp(2rem,4vw,3.5rem)] font-normal;
+  }
+}
