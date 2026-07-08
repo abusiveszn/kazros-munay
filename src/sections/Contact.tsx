@@ -170,12 +170,12 @@ export default function Contact() {
             <div>
               <p className="text-parchment body-large mb-3">
                 WhatsApp us at{' '}
-                <a href="tel:+15599600842" className="text-gold hover:underline">
-                  +1 (559) 960-0842
+                <a href="tel:+77752762437" className="text-gold hover:underline">
+                  +7 (775) 276-2437
                 </a>
               </p>
               <a
-                href="https://wa.me/15599600842"
+                href="https://wa.me/77752762437"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-link-gold"
@@ -190,16 +190,16 @@ export default function Contact() {
                 Kazros Munay LLC
               </h4>
               <p className="text-parchment/60 leading-relaxed">
-                1309 Coffeen Avenue STE 1200
+                Kyzylorda region, Kyzylorda city, 
                 <br />
-                Sheridan Wyoming 82801
+                Kyzylorda city Khon Ben Do street, building 4a
               </p>
             </div>
 
             {/* Phone */}
             <div>
-              <a href="tel:+15599600842" className="text-parchment/60 hover:text-gold transition-colors">
-                (559) 960-0842
+              <a href="tel:+77752762437" className="text-parchment/60 hover:text-gold transition-colors">
+                (775) 276-2437
               </a>
             </div>
 
