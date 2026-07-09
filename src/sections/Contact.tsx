@@ -170,8 +170,8 @@ export default function Contact() {
             <div>
               <p className="text-parchment body-large mb-3">
                 WhatsApp us at{' '}
-                <a href="tel:+77752762437" className="text-gold hover:underline">
-                  +7 (775) 276-2437
+                <a href="tel:+77751644563" className="text-gold hover:underline">
+                  +7 (775) 164-4563
                 </a>
               </p>
               <a
@@ -198,8 +198,8 @@ export default function Contact() {
 
             {/* Phone */}
             <div>
-              <a href="tel:+77752762437" className="text-parchment/60 hover:text-gold transition-colors">
-                (775) 276-2437
+              <a href="tel:+77751644563" className="text-parchment/60 hover:text-gold transition-colors">
+                (775) 164-4563
               </a>
             </div>
 
